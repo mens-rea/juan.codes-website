@@ -1,0 +1,111 @@
+* {
+  font-family: 'Helvetica', sans-serif;
+  color: #2e2e2e;
+  text-align: center;
+}
+
+body {
+  background-color: #f5f5f5;
+}
+
+.mt-5 {
+  margin-top: 5rem;
+}
+
+.yellow {
+  color: #FFC40C;
+}
+
+.red {
+  color: #FF002C;
+}
+
+.blue {
+  color: #264DFF;
+}
+
+h1 {
+  font-size: 50pt;
+}
+
+h2 {
+  font-size: 36pt;
+}
+
+h3 {
+  font-size: 20pt;
+}
+
+p {
+  font-size: 16pt;
+}
+
+a {
+  color: #264DFF;
+  text-decoration: none;
+}
+
+a::before {
+  content: '(';
+}
+a::after {
+  content: ')';
+}
+
+quote {
+  font-size: 20pt;
+  font-style: italic;
+}
+
+quote::before, quote::after {
+  content: '"';
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul li {
+  display: inline-block;
+}
+
+ul li::after {
+  content: ' . ';
+}
+
+ul li:last-child::after {
+  content: '';
+}
+
+.profile {
+  overflow: hidden;
+  border-radius: 100%;
+  height: 200px;
+  width: 200px;
+  margin: 0 auto;
+  margin-top: 5rem;
+}
+
+.profile img {
+  width: 200px;
+  height: 200px;
+}
+
+.title {
+  position: relative;
+  width: fit-content;
+  margin: 0 auto;
+  margin-bottom: 5rem;
+  letter-spacing: 0.1rem;
+}
+
+.title span {
+  background-color: #FF002C;
+  color: white;
+  padding: 0.5rem 1rem;
+  font-size: 12pt;
+  position: absolute;
+  bottom: -30px;
+  right: 5px;
+}
