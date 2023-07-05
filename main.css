@@ -200,6 +200,7 @@ svg .g2-triangle {
   .hero-section {
     height: 100vh;
     padding-top: 10vh;
+    padding: 10vh 1rem;
   }
 
   .hero-section .profile {
@@ -207,11 +208,11 @@ svg .g2-triangle {
   }
 
   .title {
-    font-size: 42pt;
+    font-size: 36pt;
     margin-top: 2rem;
   }
 
   .hero-section quote {
-    font-size: 20pt;
+    font-size: 18pt;
   }
 }
