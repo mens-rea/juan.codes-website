@@ -80,7 +80,7 @@ ul li:last-child::after {
 
 .hero-section {
   position: relative;
-  padding-top: 5rem;
+  padding-top: 10vh;
 }
 
 .profile {
