@@ -109,3 +109,22 @@ ul li:last-child::after {
   bottom: -30px;
   right: 5px;
 }
+
+@media screen and (max-width: 450px) {
+  .hero-section {
+    height: 100vh;
+  }
+
+  .hero-section .profile {
+    margin-top: 20vh;
+  }
+
+  .title {
+    font-size: 42pt;
+    margin-top: 2rem;
+  }
+
+  .hero-section quote {
+    font-size: 20pt;
+  }
+}
