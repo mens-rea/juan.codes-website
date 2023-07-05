@@ -198,6 +198,7 @@ svg .g2-triangle {
 @media screen and (max-width: 450px) {
   .hero-section {
     height: 100vh;
+    padding-top: 0vh;
   }
 
   .hero-section .profile {
