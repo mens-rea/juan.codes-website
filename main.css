@@ -38,7 +38,11 @@ h2 {
 }
 
 h3 {
-  font-size: 20pt;
+  font-size: 24pt;
+}
+
+h4 {
+  font-size: 18pt;
 }
 
 p {
@@ -50,11 +54,8 @@ a {
   text-decoration: none;
 }
 
-a::before {
-  content: '(';
-}
-a::after {
-  content: ')';
+ul li {
+  display: inline-block;
 }
 
 quote {
@@ -71,21 +72,9 @@ ul {
   padding-left: 0;
 }
 
-ul li {
-  display: inline-block;
-}
-
-ul li::after {
-  content: ' . ';
-}
-
-ul li:last-child::after {
-  content: '';
-}
-
 .section {
   scroll-snap-align: start;
-  height: 100vh;
+  min-height: 100vh;
   overflow: hidden;
 }
 
@@ -129,6 +118,21 @@ ul li:last-child::after {
 
 .projects-section .title {
   margin-top: 10vh;
+}
+
+.projects-list li {
+  margin: .5rem;
+}
+
+.projects-list li a {
+  width: 25vh;
+  padding: 2rem 3rem;
+  background-color: white;
+  display: block;
+}
+
+.projects-list li a p {
+  font-size: 14pt;
 }
 
 /** SVG ANIMATIONS **/
@@ -228,5 +232,17 @@ svg .g2-triangle {
 
   .hero-section quote {
     font-size: 18pt;
+  }
+
+  .projects-section .title {
+    margin: 1rem 0;
+  }
+
+  .projects-section .projects-list li a {
+    padding: 1rem 2rem;
+  }
+
+  .projects-section .projects-list li a h4 {
+    font-size: 16pt;
   }
 }
