@@ -128,6 +128,18 @@ ul {
   right: 5px;
 }
 
+.contacts-list li {
+  display: inline-block;
+}
+
+.contacts-list li::after {
+  content: ' .';
+}
+
+.contacts-list li:last-child::after {
+  content: '';
+}
+
 .projects-section .title {
   margin-top: 10vh;
 }
