@@ -4,6 +4,10 @@
   text-align: center;
 }
 
+html {
+  scroll-snap-type: y mandatory;
+}
+
 body {
   background-color: #f5f5f5;
   margin: 0;
@@ -79,6 +83,12 @@ ul li:last-child::after {
   content: '';
 }
 
+.section {
+  scroll-snap-align: start;
+  height: 100vh;
+  overflow: hidden;
+}
+
 .hero-section {
   position: relative;
   padding-top: 10vh;
@@ -115,6 +125,10 @@ ul li:last-child::after {
   position: absolute;
   bottom: -30px;
   right: 5px;
+}
+
+.projects-section .title {
+  margin-top: 10vh;
 }
 
 /** SVG ANIMATIONS **/
