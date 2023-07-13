@@ -220,7 +220,7 @@ svg .g2-triangle {
     width: 10px;
     height: 10px;
     r: 10px;
-    transform: translate(10%, -30%);
+    transform: translate(20%, -30%);
     opacity: 0.1;
   }
 }
@@ -236,7 +236,7 @@ svg .g2-triangle {
     width: 5px;
     height: 5px;
     r: 5px;
-    transform: translate(7%, -40%);
+    transform: translate(10%, -40%);
     opacity: 0.1;
   }
 }
